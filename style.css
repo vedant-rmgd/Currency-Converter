@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+
+#container {
+    background-color: white;
+    padding: 2rem;  
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 20vw;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form input,select,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.select-container img{
+    width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.select-container select {
+    font-size: 1rem;
+}
+
+.msg {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+form button {
+    height: 2rem;
+    background-color: #af4d9f;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+@media (min-width: 319px) and (max-width: 480px){
+    #container{
+        width: 295px;
+        min-height: 300px;
+    }
+}
